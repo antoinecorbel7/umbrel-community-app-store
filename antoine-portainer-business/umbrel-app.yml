@@ -2,7 +2,7 @@ manifestVersion: 1
 id: antoine-portainer-business
 category: developer
 name: Portainer Business
-version: "2.33.1.2"
+version: "2.33.1.3"
 tagline: Run custom Docker containers on your Umbrel
 description: >-
   ⚠️ Make sure to only use named Docker volumes for your stacks and containers. Data in bind-mounted volumes
@@ -42,7 +42,7 @@ website: https://portainer.io
 dependencies: []
 repo: https://github.com/portainer/portainer
 support: https://github.com/portainer/portainer/issues
-port: 9500
+port: 9600
 gallery:
   - 1.jpg
   - 2.jpg
