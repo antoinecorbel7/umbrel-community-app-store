@@ -1,7 +1,7 @@
 manifestVersion: 1
-id: portainer-business
+id: antoine-portainer-business
 category: developer
-name: Portainer
+name: Portainer Business
 version: "2.33.1"
 tagline: Run custom Docker containers on your Umbrel
 description: >-
