@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: portainer_portainer_business_1
-      APP_PORT: 9500
+      APP_PORT: 9600
     container_name: portainer_app_proxy_1
   docker:
     image: >-
@@ -31,7 +31,7 @@ services:
       portainer/portainer-ee:2.33.1@sha256:5c1a782e9cfe0bfb41522b9c2af334289d19cb7f164426c0bfb9ce3b454b69e7
     command: '--host unix:///var/run/docker.sock --admin-password-file=/default-password'
     ports:
-      - "9500:9000"
+      - "9600:9000"
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/default-password:/default-password
