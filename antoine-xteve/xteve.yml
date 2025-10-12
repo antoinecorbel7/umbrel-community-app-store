@@ -1,23 +1,28 @@
 manifestVersion: 1
 id: antoine-xteve
-category: developer
+category: media
 name: xTeVe
-version: "v2.2"
-tagline: Run custom Docker containers on your Umbrel
-description: xTeVe
+version: "2.2"
+tagline: IPTV proxy for Plex, Emby, and Jellyfin
+description: |
+  xTeVe acts as a buffer or proxy between your IPTV provider and your media server
+  (Plex, Emby, Jellyfin). It allows you to manage M3U playlists and EPG guides,
+  merge streams, and filter channels. This image also includes built-in support
+  for Guide2Go and zap2xml to fetch EPG data automatically.
+
+developer: xTeVe Project
 website: https://github.com/xteve-project/xTeVe
-dependencies: []
 repo: https://github.com/xteve-project/xTeVe
 support: https://github.com/xteve-project/xTeVe/issues
+dependencies: []
 port: 34400
 gallery:
   - 1.jpg
   - 2.jpg
   - 3.jpg
 path: ""
-defaultUsername: "admin"
-defaultPassword: "changeme"
-releaseNotes: N/A
-developer: Portainer
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: "Initial Umbrel Community App release."
 submitter: Antoine
 submission: https://github.com/getumbrel/umbrel-apps/pull/774
