@@ -16,6 +16,7 @@ repo: https://github.com/xteve-project/xTeVe
 support: https://github.com/xteve-project/xTeVe/issues
 dependencies: []
 port: 34400
+path: /web
 gallery:
   - 1.jpg
   - 2.jpg
