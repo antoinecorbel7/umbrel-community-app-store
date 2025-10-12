@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  xteve:
+    image: dnsforge/xteve:latest
+    container_name: xteve
+    restart: unless-stopped
+    # Host mode is strongly recommended by the image docs for discovery & simplicity
+    network_mode: host
+    environment:
+      TZ: "UTC"                 # run xTeVe, cron, guide2go, zap2xml on UTC
+      # XTEVE_PORT: "34400"     # optional: only used if you switch to bridge networking
+    volumes:
+      - ${APP_DATA_DIR}/xteve:/home/xteve/conf                # xTeVe config, data, backups
+      - ${APP_DATA_DIR}/guide2go:/home/xteve/guide2go/conf    # Guide2Go YAMLs live here
+      # optional cache (helps zap2xml if you want to persist caches separately)
+      - ${APP_DATA_DIR}/cache:/home/xteve/cache

@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: antoine-portainer-business
+category: developer
+name: xTeVe
+version: "v2.2"
+tagline: Run custom Docker containers on your Umbrel
+description: xTeVe
+website: https://github.com/xteve-project/xTeVe
+dependencies: []
+repo: https://github.com/xteve-project/xTeVe
+support: https://github.com/xteve-project/xTeVe/issues
+port: 34400
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: "admin"
+defaultPassword: "changeme"
+releaseNotes: N/A
+developer: Portainer
+submitter: Antoine
+submission: https://github.com/getumbrel/umbrel-apps/pull/774
