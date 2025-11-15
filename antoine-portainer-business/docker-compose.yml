@@ -25,6 +25,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/entrypoint.sh:/entrypoint.sh
       - ${APP_DATA_DIR}/data/docker:/data
+      - ${UMBREL_ROOT}/home/Downloads:/downloads
     container_name: portainer_docker_1
   portainer:
     image: >-
@@ -35,4 +36,5 @@ services:
       - ${APP_DATA_DIR}/default-password:/default-password
       - ${APP_DATA_DIR}/data/portainer:/data
       - ${APP_DATA_DIR}/data/docker:/var/run
+      - ${UMBREL_ROOT}/home/Downloads:/downloads
     container_name: portainer_portainer_business_1
