@@ -29,7 +29,7 @@ services:
     container_name: portainer_docker_1
   portainer:
     image: >-
-      portainer/portainer-ee:2.33.2@sha256:3d9951ce9b3c1d2a83b9f5cb951e0c9bd196406c42e91040b30c44be443231a1
+      portainer/portainer-ee:2.39.0@sha256:65eaa3d1b5e6e7378018817a8b3d826f970153c00ac3d2c3d3d2075037c19239
     command: '--host unix:///var/run/docker.sock --admin-password-file=/default-password'
     restart: on-failure
     volumes:
