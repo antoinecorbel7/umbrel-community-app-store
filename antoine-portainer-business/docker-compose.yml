@@ -30,8 +30,10 @@ services:
   portainer:
     image: >-
       portainer/portainer-ee:2.39.0@sha256:65eaa3d1b5e6e7378018817a8b3d826f970153c00ac3d2c3d3d2075037c19239
-    command: '--host unix:///var/run/docker.sock --admin-password-file=/default-password'
+    command: '--host unix:///var/run/docker.sock --admin-password-file=/default-password --tunnel-addr=:8000'
     restart: on-failure
+    ports:
+      - "8000:8000"
     volumes:
       - ${APP_DATA_DIR}/default-password:/default-password
       - ${APP_DATA_DIR}/data/portainer:/data
