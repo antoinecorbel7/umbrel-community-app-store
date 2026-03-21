@@ -51,13 +51,10 @@ path: ""
 defaultUsername: "admin"
 defaultPassword: "changeme"
 releaseNotes: >-
-  Portainer Business 2.39.0 LTS (February 25, 2026).
+  Portainer Business 2.39.1 LTS.
 
 
-  ⚠️ Support for Docker CE 20.x and older has been removed — use Docker 23.x or newer.
-
-
-  Full release notes at https://github.com/portainer/portainer/releases/tag/2.39.0
+  Full release notes at https://github.com/portainer/portainer/releases/tag/2.39.1
 developer: Portainer
 submitter: Antoine
 submission: https://github.com/getumbrel/umbrel-apps/pull/774
