@@ -2,7 +2,7 @@ manifestVersion: 1
 id: antoine-portainer-business
 category: developer
 name: Portainer Business
-version: "2.39.1-1"
+version: "2.45.0"
 tagline: Run custom Docker containers on your Umbrel
 description: >-
   ⚠️ Make sure to only use named Docker volumes for your stacks and containers. Data in bind-mounted volumes
@@ -51,10 +51,10 @@ path: ""
 defaultUsername: "admin"
 defaultPassword: "changeme"
 releaseNotes: >-
-  Portainer Business 2.39.1 LTS.
+  Portainer Business 2.45.0 LTS.
 
 
-  Full release notes at https://github.com/portainer/portainer/releases/tag/2.39.1
+  Full release notes at https://github.com/portainer/portainer/releases/tag/2.45.0
 developer: Portainer
 submitter: Antoine
 submission: https://github.com/getumbrel/umbrel-apps/pull/774
