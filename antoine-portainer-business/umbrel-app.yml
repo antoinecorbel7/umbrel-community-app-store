@@ -2,7 +2,7 @@ manifestVersion: 1
 id: antoine-portainer-business
 category: developer
 name: Portainer Business
-version: "2.45.0"
+version: "2.45.0.1"
 icon: https://raw.githubusercontent.com/antoinecorbel7/umbrel-community-app-store/master/antoine-portainer-business/logo.jpg
 tagline: Run custom Docker containers on your Umbrel
 description: >-

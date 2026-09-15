@@ -4,6 +4,7 @@ services:
     environment:
       APP_HOST: portainer_portainer_business_1
       APP_PORT: 9000
+      PROXY_AUTH_ADD: "false"
     container_name: portainer_app_proxy_1
   docker:
     image: >-
