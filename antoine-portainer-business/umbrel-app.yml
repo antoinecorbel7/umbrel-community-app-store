@@ -2,7 +2,7 @@ manifestVersion: 1
 id: antoine-portainer-business
 category: developer
 name: Portainer Business
-version: "2.45.0.1"
+version: "2.45.2.0"
 icon: https://raw.githubusercontent.com/antoinecorbel7/umbrel-community-app-store/master/antoine-portainer-business/logo.jpg
 tagline: Run custom Docker containers on your Umbrel
 description: >-
@@ -52,10 +52,11 @@ path: ""
 defaultUsername: "admin"
 defaultPassword: "changeme"
 releaseNotes: >-
-  Portainer Business 2.45.0 LTS.
+  Updates Portainer Business to 2.45.2 LTS and Docker-in-Docker to 29.9.2 for security fixes and runtime updates.
 
 
-  Full release notes at https://github.com/portainer/portainer/releases/tag/2.45.0
+  Full release notes at https://docs.portainer.io/release-notes#release-2.45.2-lts
+  and https://docs.docker.com/engine/release-notes/29/#2992
 developer: Portainer
 submitter: Antoine
 submission: https://github.com/getumbrel/umbrel-apps/pull/774
