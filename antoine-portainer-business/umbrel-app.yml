@@ -2,7 +2,7 @@ manifestVersion: 1
 id: antoine-portainer-business
 category: developer
 name: Portainer Business
-version: "2.45.2.0"
+version: "2.45.3.0"
 icon: https://raw.githubusercontent.com/antoinecorbel7/umbrel-community-app-store/master/antoine-portainer-business/logo.jpg
 tagline: Run custom Docker containers on your Umbrel
 description: >-
@@ -52,11 +52,14 @@ path: ""
 defaultUsername: "admin"
 defaultPassword: "changeme"
 releaseNotes: >-
-  Updates Portainer Business to 2.45.2 LTS and Docker-in-Docker to 29.9.2 for security fixes and runtime updates.
+  Updates Portainer Business to 2.45.3 LTS for security fixes. Docker-in-Docker remains at 29.9.2.
 
 
-  Full release notes at https://docs.portainer.io/release-notes#release-2.45.2-lts
-  and https://docs.docker.com/engine/release-notes/29/#2992
+  Portainer no longer trusts eMudhra (emSign) certificates. Connections to affected authentication providers,
+  registries, and Git hosts will fail. Check these services before updating.
+
+
+  Full release notes at https://docs.portainer.io/release-notes
 developer: Portainer
 submitter: Antoine
 submission: https://github.com/getumbrel/umbrel-apps/pull/774
